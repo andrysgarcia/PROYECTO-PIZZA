@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    background: url("./IMG/pizza-rd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.nav .nav-links{
+    display: flex;
+}
+.nav .nav-links li{
+    margin-right: 60px;
+}
+.nav .nav-links li a{
+    color: aliceblue;
+}
