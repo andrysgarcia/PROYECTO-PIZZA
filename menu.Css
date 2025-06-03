@@ -1,0 +1,194 @@
+/* Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+
+/* Banner */
+.banner {
+    background-image: url('./IMG/miaaa\ y\ jake0.png'); /* Cambia por la imagen correcta */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    margin: 0;
+    height: 40vh 20vh; /* Puedes ajustar la altura como quieras */
+    position: relative;
+}
+
+.fondo-transparente {
+    background: rgba(0, 0, 0, 0.5); /* fondo negro con transparencia */
+    width: 95%;
+    height: 95%;
+    padding: 30px;
+    border-radius: 0; /* sin bordes redondos para que cubra todo */
+
+  
+}
+
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    background-color: white;
+    color: brown;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ffcc00;
+}
+
+/* Sección del Menú */
+.menu {
+    padding: 30px;
+}
+
+.menu h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de los productos */
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Cuadro del producto */
+.menu-item {
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen del producto */
+.menu-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Precio */
+.price {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    margin-top: 5px;
+}
+
+/* Estrellas de calificación */
+.stars {
+    margin-top: 10px;
+}
+
+.star {
+    font-size: 24px;
+    color: #bbb;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.star:hover,
+.star.active {
+    color: gold;
+}
+
+.footer {
+background-image: url('./IMG/miaaa\ y\ jake0.png'); /* Ruta de tu imagen */
+  background-size: cover; /* Ajusta la imagen al tamaño del footer */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+     color: #f1f1f1;
+  padding: 0;
+}
+.footer-overlay {
+  background: rgba(0, 0, 0, 0.6); /* Capa negra con transparencia */
+  padding: 40px 20px;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-about,
+.footer-links,
+.footer-social {
+  flex: 1 1 250px;
+  margin: 20px;
+}
+.footer h2,
+.footer h3 {
+  color: #ffc107;
+  margin-bottom: 15px;
+}
+.footer a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #ffc107;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.social-icons i {
+  font-size: 28px;
+  color: #f1f1f1;
+  margin-right: 15px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-icons i:hover {
+  transform: scale(1.2);
+  color: #ffc107;
+}
