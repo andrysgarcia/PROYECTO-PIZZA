@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Activa las estrellas hasta la seleccionada
                 for (let i = 0; i < rating; i++) {
-                    stars[i].classList.add("active");
+                    stars[i].classList.add("active"); 
+                    mm
                 }
             });
         });

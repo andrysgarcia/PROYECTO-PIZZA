@@ -83,7 +83,7 @@ background-image: url('./IMG/miaaa\ y\ jake0.png'); /* Ruta de tu imagen */
 }
 
 .footer-overlay {
-  background: rgba(0, 0, 0, 0.6); /* Capa negra con transparencia */
+  background: rgba(0, 0, 0, 0.6); 
   padding: 40px 20px;
 }
 
